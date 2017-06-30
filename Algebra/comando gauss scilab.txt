@@ -1,0 +1,15 @@
+rref([A b])
+
+
+
+A = matriz dos coeficientes
+
+b = vetor 
+faturamento = preço X quantidade = p1.q+p2.q2...n
+
+|p1.q1+p2q2+p3q3 = 322.500
+|   q1+q2+q3     = 1200 
+|      q2-q3     = 500 
+
+Q = a\b
+Q(1,1)
