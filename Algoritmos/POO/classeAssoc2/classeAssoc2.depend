@@ -1,0 +1,53 @@
+# depslib dependency file v1.0
+1497901860 source:c:\users\fernanda\progrs codeblocks\classeassoc2\aluno.cpp
+	"Aluno.h"
+
+1497901844 c:\users\fernanda\progrs codeblocks\classeassoc2\aluno.h
+	<iostream>
+	<string>
+
+1497901979 source:c:\users\fernanda\progrs codeblocks\classeassoc2\main.cpp
+	"Orientacao.h"
+
+1497903165 c:\users\fernanda\progrs codeblocks\classeassoc2\orientacao.h
+	"Professor.h"
+	"Aluno.h"
+
+1497903033 c:\users\fernanda\progrs codeblocks\classeassoc2\professor.h
+	"Aluno.h"
+	<iostream>
+	<string>
+	<vector>
+
+1497902170 source:c:\users\fernanda\progrs codeblocks\classeassoc2\orientacao.cpp
+	"Orientacao.h"
+
+1497903033 source:c:\users\fernanda\progrs codeblocks\classeassoc2\professor.cpp
+	"Professor.h"
+
+1497912660 source:c:\users\gustavo\desktop\classeassoc2\aluno.cpp
+	"Aluno.h"
+
+1498706531 c:\users\gustavo\desktop\classeassoc2\aluno.h
+	<iostream>
+	<string>
+
+1497912778 source:c:\users\gustavo\desktop\classeassoc2\main.cpp
+	"Orientacao.h"
+
+1497913964 c:\users\gustavo\desktop\classeassoc2\orientacao.h
+	"Professor.h"
+	"Aluno.h"
+
+1497913832 c:\users\gustavo\desktop\classeassoc2\professor.h
+	"Aluno.h"
+	<iostream>
+	<string>
+	<vector>
+
+1497912970 source:c:\users\gustavo\desktop\classeassoc2\orientacao.cpp
+	"Orientacao.h"
+
+1497913832 source:c:\users\gustavo\desktop\classeassoc2\professor.cpp
+	"Professor.h"
+

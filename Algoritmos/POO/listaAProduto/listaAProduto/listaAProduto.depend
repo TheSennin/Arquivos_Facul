@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1489187406 source:c:\users\fernanda\progrs codeblocks\listaaproduto\main.cpp
+	<iostream>
+	"Produto.h"
+
+1489235068 source:c:\users\fernanda\progrs codeblocks\listaaproduto\produto.cpp
+	<iostream>
+	<string>
+	"Produto.h"
+
+1489235175 c:\users\fernanda\progrs codeblocks\listaaproduto\produto.h
+	<iostream>
+	<string>
+
+1489427874 source:c:\users\gustavo\desktop\arquivos facul\algoritmos\poo\listaaproduto\listaaproduto\main.cpp
+	<iostream>
+	"Produto.h"
+
+1489235175 c:\users\gustavo\desktop\arquivos facul\algoritmos\poo\listaaproduto\listaaproduto\produto.h
+	<iostream>
+	<string>
+
+1489235379 source:c:\users\gustavo\desktop\arquivos facul\algoritmos\poo\listaaproduto\listaaproduto\produto.cpp
+	<iostream>
+	<string>
+	"Produto.h"
+

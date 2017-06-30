@@ -1,0 +1,3 @@
+CLASSES: 
+    Private -> Atributos
+    Public  -> Métodos 

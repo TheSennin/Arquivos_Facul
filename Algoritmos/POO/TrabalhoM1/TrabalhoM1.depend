@@ -1,0 +1,58 @@
+# depslib dependency file v1.0
+1490394805 source:c:\users\6322875\desktop\trabalhom1\motor.cpp
+	"Motor.h"
+	<iostream>
+
+1490394626 c:\users\6322875\desktop\trabalhom1\motor.h
+	<iostream>
+	<string>
+
+1490399625 source:c:\users\6322875\desktop\trabalhom1\main.cpp
+	<iostream>
+	"VeiculoPasseio.h"
+	"Veiculo.h"
+
+1490399373 c:\users\6322875\desktop\trabalhom1\veiculo.h
+	<iostream>
+	"Motor.h"
+
+1490399373 source:c:\users\6322875\desktop\trabalhom1\veiculo.cpp
+	"Veiculo.h"
+	<iostream>
+
+1490398883 source:c:\users\6322875\desktop\trabalhom1\veiculopasseio.cpp
+	"Veiculo.h"
+	"VeiculoPasseio.h"
+	<string>
+	<iostream>
+
+1490398316 c:\users\6322875\desktop\trabalhom1\veiculopasseio.h
+	"Veiculo.h"
+	<string>
+
+1490394806 source:c:\users\gustavo\desktop\arquivos facul\algoritmos\poo\trabalhom1\motor.cpp
+	"Motor.h"
+	<iostream>
+
+1490394628 c:\users\gustavo\desktop\arquivos facul\algoritmos\poo\trabalhom1\motor.h
+	<iostream>
+	<string>
+
+1490399374 source:c:\users\gustavo\desktop\arquivos facul\algoritmos\poo\trabalhom1\veiculo.cpp
+	"Veiculo.h"
+	<iostream>
+
+1490399374 c:\users\gustavo\desktop\arquivos facul\algoritmos\poo\trabalhom1\veiculo.h
+	<iostream>
+	"Motor.h"
+
+1490398884 source:c:\users\gustavo\desktop\arquivos facul\algoritmos\poo\trabalhom1\veiculopasseio.cpp
+	"Veiculo.h"
+	"VeiculoPasseio.h"
+	<string>
+	<iostream>
+
+1490989574 c:\users\gustavo\desktop\arquivos facul\algoritmos\poo\trabalhom1\veiculopasseio.h
+	"Veiculo.h"
+	<string>
+

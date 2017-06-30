@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1497050077 source:c:\users\fernanda\progrs codeblocks\exfamiliaagregacao\familia.cpp
+	<iostream>
+	"Familia.h"
+
+1497049525 c:\users\fernanda\progrs codeblocks\exfamiliaagregacao\familia.h
+	<iostream>
+	<string>
+	"Pessoa.h"
+
+1497049846 c:\users\fernanda\progrs codeblocks\exfamiliaagregacao\pessoa.h
+	<iostream>
+	<string>
+
+1497049911 source:c:\users\fernanda\progrs codeblocks\exfamiliaagregacao\main.cpp
+	<iostream>
+	"Pessoa.h"
+	"Familia.h"
+	<iostream>
+	"Pessoa.h"
+	<iostream>
+	"Date.h"
+	"Pessoa.h"
+
+1497049846 source:c:\users\fernanda\progrs codeblocks\exfamiliaagregacao\pessoa.cpp
+	<iostream>
+	"Pessoa.h"
+
+1497060646 source:c:\users\gustavo\desktop\exfamiliaagregacao\pessoa.cpp
+	<iostream>
+	"Pessoa.h"
+
+1497060646 c:\users\gustavo\desktop\exfamiliaagregacao\pessoa.h
+	<iostream>
+	<string>
+

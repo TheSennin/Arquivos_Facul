@@ -1,0 +1,71 @@
+# depslib dependency file v1.0
+1492122364 source:c:\users\6311130\desktop\algoritmos2-ex2\main.cpp
+	<ostream>
+	<iostream>
+	"DVDS.h"
+	"CDS.h"
+	"Livros.h"
+
+1491660884 c:\users\6311130\desktop\algoritmos2-ex2\produto.h
+	<string>
+
+1491657260 source:c:\users\6311130\desktop\algoritmos2-ex2\produto.cpp
+	"Produto.h"
+	<string>
+
+1491661742 source:c:\users\6311130\desktop\algoritmos2-ex2\livros.cpp
+	<string>
+	<iostream>
+	"Livros.h"
+
+1491660046 c:\users\6311130\desktop\algoritmos2-ex2\livros.h
+	"Produto.h"
+
+1491661808 source:c:\users\6311130\desktop\algoritmos2-ex2\cds.cpp
+	"CDS.h"
+	<iostream>
+
+1491661034 c:\users\6311130\desktop\algoritmos2-ex2\cds.h
+	"Produto.h"
+
+1491662498 c:\users\6311130\desktop\algoritmos2-ex2\dvds.h
+	<string>
+	"Produto.h"
+
+1491662980 source:c:\users\6311130\desktop\algoritmos2-ex2\dvds.cpp
+	<iostream>
+	"DVDS.h"
+
+1491661808 source:c:\users\gustavo\desktop\algoritmos2-ex2\algoritmos2-ex2\cds.cpp
+	"CDS.h"
+	<iostream>
+
+1491661034 c:\users\gustavo\desktop\algoritmos2-ex2\algoritmos2-ex2\cds.h
+	"Produto.h"
+
+1491660884 c:\users\gustavo\desktop\algoritmos2-ex2\algoritmos2-ex2\produto.h
+	<string>
+
+1491661742 source:c:\users\gustavo\desktop\algoritmos2-ex2\algoritmos2-ex2\livros.cpp
+	<string>
+	<iostream>
+	"Livros.h"
+
+1491660046 c:\users\gustavo\desktop\algoritmos2-ex2\algoritmos2-ex2\livros.h
+	"Produto.h"
+
+1492122366 source:c:\users\gustavo\desktop\algoritmos2-ex2\algoritmos2-ex2\main.cpp
+	<ostream>
+	<iostream>
+	"DVDS.h"
+	"CDS.h"
+	"Livros.h"
+
+1491662498 c:\users\gustavo\desktop\algoritmos2-ex2\algoritmos2-ex2\dvds.h
+	<string>
+	"Produto.h"
+
+1491657260 source:c:\users\gustavo\desktop\algoritmos2-ex2\algoritmos2-ex2\produto.cpp
+	"Produto.h"
+	<string>
+

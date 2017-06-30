@@ -1,0 +1,111 @@
+#include <iostream>
+#include "Produto.h"
+
+using namespace std;
+
+int main()
+{
+    Produto carro;
+    carro.setnome("Volskvagen");
+    carro.setpreco_custo(12500);
+    carro.setpreco_venda(11000);
+    std::cout << "Nome: " << carro.getnome() << std::endl;
+    std::cout << "Preco de custo: " << carro.getpreco_custo() << std::endl;
+    std::cout << "Preco de venda: " << carro.getpreco_venda() << std::endl;
+    std::cout << "Margem de lucro: " << carro.getMargemLucroPorcentagem() << std::endl;
+    return 0;
+}
+
+
+#include <iostream>
+#include "Produto.h"
+
+
+Produto::Produto()
+{
+    this->nome = "";
+    this->preco_custo = 0;
+    this->preco_venda = 0;
+    this->margem_lucro = 0;
+}
+
+void Produto::setnome(std::string nome)
+{
+    this->nome = nome;
+}
+
+
+void Produto::setpreco_custo(float preco_custo)
+{
+    this->preco_custo = preco_custo;
+}
+
+
+void Produto::setpreco_venda(float preco_venda)
+{
+    if (preco_venda >= this->preco_custo)
+    {
+        this->preco_venda = preco_venda;
+    }
+    else
+    {
+        std::cout << "Preco de venda não foi aceito" << std::endl;
+    }
+}
+
+
+float Produto::getpreco_custo()
+{
+     return this->preco_custo;
+}
+
+
+std::string Produto::getnome()
+{
+    return this->nome;
+}
+
+
+float Produto::getpreco_venda()
+{
+    return this->preco_venda;
+}
+
+
+void Produto::calcularMargemLucro()
+{
+    this->margem_lucro = this->preco_venda - this->preco_custo;
+}
+
+
+float Produto::getMargemLucroPorcentagem()
+{
+    this->calcularMargemLucro();
+    return (this->margem_lucro * 100)/this->preco_venda;
+}
+
+
+
+
+
+#ifndef PRODUTO_H_INCLUDED
+#define PRODUTO_H_INCLUDED
+
+class Produto
+{
+    private:
+        std::string nome;
+        float preco_custo, preco_venda, margem_lucro;
+        void calcularMargemLucro();
+    public:
+        Produto();
+        void setnome(std::string);
+        void setpreco_custo(float);
+        void setpreco_venda(float);
+        float getpreco_custo();
+        std::string getnome();
+        float getpreco_venda();
+        float getMargemLucroPorcentagem();
+};
+
+#endif // PRODUTO_H_INCLUDED
