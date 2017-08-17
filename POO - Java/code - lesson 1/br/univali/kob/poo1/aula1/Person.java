@@ -1,9 +1,9 @@
-package univali.kob.poo1.aula1;
+package br.univali.kob.poo1.aula01;
 
-import java.util.*;
+import java.time.LocalDate;
 
 /**
- * 
+ *
  */
 public class Person {
 
