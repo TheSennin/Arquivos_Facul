@@ -1,0 +1,149 @@
+// RESOLUCOES DOS EXERCICIOS SOBRE ARQUIVOS TEXTO
+
+#include <iostream>
+#include <fstream>
+#include <string>
+using namespace std;
+
+int main() // do exerc 4
+{
+    ifstream arq;
+    ofstream arq2;
+    char ch;
+    string nomearq, nomearq2;
+    cout << "\n Nome do arquivo a ser aberto: ";
+    getline(cin, nomearq);
+    arq.open(nomearq.c_str()); // cria e abre para leitura
+
+    nomearq2 = nomearq; 
+    for(int i=nomearq2.size()-1;i>0;i--){	// para mudar a extensao do nomearq
+        if(nomearq2.at(i)!='.') nomearq2.at(i)='x';
+        else break;
+    }
+    cout << nomearq2 << endl;
+    arq2.open(nomearq2.c_str()); /*
+
+    cria e abre para leitura
+*/
+    if (!arq||!arq2) {
+        cout << "Nao foi possivel abrir o arquivo."; cin.get(); return 0;
+    }
+    while(arq.get(ch)) { // enquanto le caracter
+        if(ch!='/') arq2<<ch; // grava caracter normal no arq2
+        else  {  // leitura anterior indicou possivel comentario
+            arq.get(ch); // le 2o caracter
+            if(ch!='/' && ch!='*') {    // indica q nao era comentario
+                arq2<<'/'<<ch; // grava os 2 caracteres lidos
+            }
+            else   // confirmado comentario
+                if(ch=='/') {  // de linha
+                    while(arq.get()!='\n'); //le-descarta resto lin
+                    arq2<<'\n'; //grava o final p/pular linha arq2
+                }
+                else  {   // de bloco, sai procurando */ agora
+                    do {
+                        arq.get(ch);// le caracter
+                        if(ch=='*'){
+                            arq.get(ch); // le 2o caracter
+                            if(ch=='/') break;
+                        }// achou */
+                    } while(1);
+                }
+        }
+    }
+    return 1;
+}
+
+int main() // do exerc 3
+{
+    string nomearq, linha;
+
+    int i = 0;
+    cout << "\n Nome do arquivo a ser aberto: ";
+    getline(cin, nomearq);
+
+    ifstream arq(nomearq.c_str()); // cria e abre para leitura
+    if (!arq){
+        cout << "Nao foi possivel abrir o arquivo.";
+        cin.get();
+        return 0;
+    }
+   while (getline(arq,linha)){
+        i++;
+        cout << linha << endl;
+        if(i%20==0){
+            cout << "\nPressione <ENTER> para continuar...";
+            cin.get();
+        }
+    }
+    arq.close();
+    return 1;
+}
+
+
+int main() { // do exerc 2
+    char carac;
+    string nomearq;
+    int contChaves=0;
+
+    cout << "\n Nome do arquivo a ser aberto: ";
+    getline(cin,nomearq);
+
+    ifstream f(nomearq.c_str()); // abre para leitura
+    if (!f)  {
+        cout << "Nao foi possivel abrir o arquivo.";
+        cin.get();
+        return 0;
+    }
+    while (f.get(carac)){
+        if(carac=='}') contChaves++;
+        else if(carac=='{') contChaves--;
+    }
+    if (contChaves == 0)
+        cout <<"\nNumero de chaves OK.";
+    else
+        cout <<"\nNumero de chaves inconsistente.";
+    f.close();
+    return 1;
+}
+
+
+int main() {    // do exerc 1
+    ifstream fin;   // arquivo para leitura
+    ofstream fout("fontenew.txt");
+    string linha, nomearq;
+    int i=0;
+    cout << "\nNome do arquivo a ser aberto: ";
+    getline(cin,nomearq);
+    fin.open(nomearq.c_str()); // abre para leitura
+    if (!fin || !fout) {
+        cout << "Nao foi possivel abrir os arquivos.";
+        cin.get();
+        return 0;
+    }
+    fin.seekg(0,ios::end);
+    cout << fin.tellg() << endl;
+    fin.seekg(0);
+    // leitura da linha usada como teste do while
+    while (getline(fin,linha))
+    {
+        fout << ++i << " " << linha << endl;
+    }
+    fin.close();
+    fout.close();
+    return 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

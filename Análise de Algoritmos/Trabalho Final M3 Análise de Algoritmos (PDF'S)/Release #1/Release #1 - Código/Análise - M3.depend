@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1504143238 source:c:\users\gustavo\desktop\análise - m3\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+
+1504143482 source:c:\users\gustavo\desktop\análise - m3 (lendo o primeiro arquivo)\main.cpp
+	<iostream>
+	<fstream>
+
