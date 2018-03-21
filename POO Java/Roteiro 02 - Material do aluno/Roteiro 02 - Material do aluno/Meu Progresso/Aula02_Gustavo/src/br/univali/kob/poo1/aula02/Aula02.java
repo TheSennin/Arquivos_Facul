@@ -16,7 +16,7 @@ public class Aula02 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        StudentInheritanceTest test = new StudentInheritanceTest();
+        EmployeeInheritanceTest test = new EmployeeInheritanceTest();
         test.run();
     }
 }
