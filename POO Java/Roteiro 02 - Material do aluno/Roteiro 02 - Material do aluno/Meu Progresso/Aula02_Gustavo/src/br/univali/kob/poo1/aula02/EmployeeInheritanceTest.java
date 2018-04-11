@@ -31,10 +31,7 @@ public class EmployeeInheritanceTest {
     private void createEmployee() {
         System.out.println("test case: createEmployee");
         DateTimeFormatter format = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-        Employee employee = new Employee();
-        employee.setId(100);
-        employee.setName("Peter Quill");
-        employee.setDateOfBirth(LocalDate.parse("15/01/1976", format));
+        Employee employee = new Employee(100, "Perter Quill", LocalDate.parse("15/01/1976", format));
         // Você reparou que a situação (employed) não foi informada.
         // Como verificar automaticamente se o empregado está trabalhando?
         employee.setHireDate(LocalDate.parse("20/09/2002", format));

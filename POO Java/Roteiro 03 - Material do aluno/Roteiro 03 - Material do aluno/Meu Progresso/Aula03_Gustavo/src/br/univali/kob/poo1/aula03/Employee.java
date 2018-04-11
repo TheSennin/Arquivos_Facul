@@ -1,4 +1,4 @@
-package br.univali.kob.poo1.aula02;
+package br.univali.kob.poo1.aula03;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
@@ -145,8 +145,11 @@ public class Employee extends Person {
     }
 
     /**
+     * {@inheritDoc} ajusta o valor da hora do professor de acordo com o nivel
+     * academico
      * @return the employee's hourly rate
      */
+    @Override
     public BigDecimal getHourlyRate() {
         return this.hourlyRate;
     }

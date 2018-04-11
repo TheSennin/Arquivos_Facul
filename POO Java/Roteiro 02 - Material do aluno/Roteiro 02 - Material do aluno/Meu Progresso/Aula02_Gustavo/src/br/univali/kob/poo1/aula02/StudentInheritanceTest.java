@@ -15,13 +15,8 @@ public class StudentInheritanceTest {
      */
     private void createSubclassStudent() {
         System.out.println("test case: createSubclassStudent");
-        Student student = new Student();
         DateTimeFormatter format = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-        // operações herdadas de Person
-        student.setName("John");
-        student.setDateOfBirth(LocalDate.parse("22/04/1997", format));
-        // operações implementadas em Student
-        student.setRollNumber(1);
+        Student student = new Student(1,"Jonh", LocalDate.parse("22/04/1997", format));
         student.setEnrollmentDate(LocalDate.parse("27/02/2017", format));
         // Não inicializamos a data de saída. Ela permanecerá como null.
         StringBuilder output = new StringBuilder();
@@ -62,7 +57,8 @@ public class StudentInheritanceTest {
      */
     private void tryAccessToSuperAttributes() {
         System.out.println("test case: tryAccessToSuperAttributes");
-        Student student = new Student();
+        DateTimeFormatter format = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+        Student student = new Student(1,"Jonh", LocalDate.parse("22/04/1997", format));
         // Experimente tirar os comentários das próximas linhas e
         // verificar o que acontece. Leia o erro retornado.
         //student.name = "John";
