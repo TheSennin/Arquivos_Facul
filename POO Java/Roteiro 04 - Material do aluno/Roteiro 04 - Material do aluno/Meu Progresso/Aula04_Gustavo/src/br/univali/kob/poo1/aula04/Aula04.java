@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.univali.kob.poo1.aula03;
-import static br.univali.kob.poo1.aula03.Professor.AcademicDegree.BACHELOR;
-import static br.univali.kob.poo1.aula03.Professor.AcademicDegree.MASTER;
+package br.univali.kob.poo1.aula04;
+import static br.univali.kob.poo1.aula04.Professor.AcademicDegree.BACHELOR;
+import static br.univali.kob.poo1.aula04.Professor.AcademicDegree.MASTER;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.math.BigDecimal;
@@ -14,7 +14,7 @@ import java.math.BigDecimal;
  *
  * @author Gustavo
  */
-public class Aula03 {
+public class Aula04 {
 
     /**
      * @param args the command line arguments
