@@ -1691,93 +1691,6 @@
 									"subViews": [
 										{
 											"_type": "UMLOperationView",
-											"_id": "AAAAAAFieWdIoTxqGZE=",
-											"_parent": {
-												"$ref": "AAAAAAFiQSzB3fxlsy0="
-											},
-											"model": {
-												"$ref": "AAAAAAFieWdIIjxnhf4="
-											},
-											"visible": true,
-											"enabled": true,
-											"lineColor": "#000000",
-											"fillColor": "#ffffff",
-											"fontColor": "#000000",
-											"font": "Arial;13;0",
-											"showShadow": true,
-											"containerChangeable": false,
-											"containerExtending": false,
-											"left": 781,
-											"top": 377,
-											"width": 815.3818359375,
-											"height": 13,
-											"autoResize": false,
-											"underline": false,
-											"text": "«constructor»+Employee(id: int, name: String, dateOfBirth: LocalDate)",
-											"horizontalAlignment": 0,
-											"verticalAlignment": 5,
-											"wordWrap": false
-										},
-										{
-											"_type": "UMLOperationView",
-											"_id": "AAAAAAFieWqK/DyG694=",
-											"_parent": {
-												"$ref": "AAAAAAFiQSzB3fxlsy0="
-											},
-											"model": {
-												"$ref": "AAAAAAFieWqKizyDwro="
-											},
-											"visible": true,
-											"enabled": true,
-											"lineColor": "#000000",
-											"fillColor": "#ffffff",
-											"fontColor": "#000000",
-											"font": "Arial;13;0",
-											"showShadow": true,
-											"containerChangeable": false,
-											"containerExtending": false,
-											"left": 781,
-											"top": 392,
-											"width": 815.3818359375,
-											"height": 13,
-											"autoResize": false,
-											"underline": false,
-											"text": "«constructor»+Employee(id: int, name: String, dateOfBirth: LocalDate, hireDate: LocalDate)",
-											"horizontalAlignment": 0,
-											"verticalAlignment": 5,
-											"wordWrap": false
-										},
-										{
-											"_type": "UMLOperationView",
-											"_id": "AAAAAAFieWwOyTylmMA=",
-											"_parent": {
-												"$ref": "AAAAAAFiQSzB3fxlsy0="
-											},
-											"model": {
-												"$ref": "AAAAAAFieWwOcjyi450="
-											},
-											"visible": true,
-											"enabled": true,
-											"lineColor": "#000000",
-											"fillColor": "#ffffff",
-											"fontColor": "#000000",
-											"font": "Arial;13;0",
-											"showShadow": true,
-											"containerChangeable": false,
-											"containerExtending": false,
-											"left": 781,
-											"top": 407,
-											"width": 815.3818359375,
-											"height": 13,
-											"autoResize": false,
-											"underline": false,
-											"text": "«constructor»+Employee(id: int, name: String, dateOfBirth: LocalDate, hireDate: LocalDate, hoursPerWorkWeek: int)",
-											"horizontalAlignment": 0,
-											"verticalAlignment": 5,
-											"wordWrap": false
-										},
-										{
-											"_type": "UMLOperationView",
 											"_id": "AAAAAAFieW1z7Ty4Q44=",
 											"_parent": {
 												"$ref": "AAAAAAFiQSzB3fxlsy0="
@@ -1795,7 +1708,7 @@
 											"containerChangeable": false,
 											"containerExtending": false,
 											"left": 781,
-											"top": 422,
+											"top": 377,
 											"width": 815.3818359375,
 											"height": 13,
 											"autoResize": false,
@@ -1824,7 +1737,7 @@
 											"containerChangeable": false,
 											"containerExtending": false,
 											"left": 781,
-											"top": 437,
+											"top": 392,
 											"width": 815.3818359375,
 											"height": 13,
 											"autoResize": false,
@@ -1853,7 +1766,7 @@
 											"containerChangeable": false,
 											"containerExtending": false,
 											"left": 781,
-											"top": 452,
+											"top": 407,
 											"width": 815.3818359375,
 											"height": 13,
 											"autoResize": false,
@@ -1882,7 +1795,7 @@
 											"containerChangeable": false,
 											"containerExtending": false,
 											"left": 781,
-											"top": 467,
+											"top": 422,
 											"width": 815.3818359375,
 											"height": 13,
 											"autoResize": false,
@@ -1911,7 +1824,7 @@
 											"containerChangeable": false,
 											"containerExtending": false,
 											"left": 781,
-											"top": 482,
+											"top": 437,
 											"width": 815.3818359375,
 											"height": 13,
 											"autoResize": false,
@@ -1940,7 +1853,7 @@
 											"containerChangeable": false,
 											"containerExtending": false,
 											"left": 781,
-											"top": 497,
+											"top": 452,
 											"width": 815.3818359375,
 											"height": 13,
 											"autoResize": false,
@@ -1969,7 +1882,7 @@
 											"containerChangeable": false,
 											"containerExtending": false,
 											"left": 781,
-											"top": 512,
+											"top": 467,
 											"width": 815.3818359375,
 											"height": 13,
 											"autoResize": false,
@@ -1998,7 +1911,7 @@
 											"containerChangeable": false,
 											"containerExtending": false,
 											"left": 781,
-											"top": 527,
+											"top": 482,
 											"width": 815.3818359375,
 											"height": 13,
 											"autoResize": false,
@@ -2027,7 +1940,7 @@
 											"containerChangeable": false,
 											"containerExtending": false,
 											"left": 781,
-											"top": 542,
+											"top": 497,
 											"width": 815.3818359375,
 											"height": 13,
 											"autoResize": false,
@@ -2056,7 +1969,7 @@
 											"containerChangeable": false,
 											"containerExtending": false,
 											"left": 781,
-											"top": 557,
+											"top": 512,
 											"width": 815.3818359375,
 											"height": 13,
 											"autoResize": false,
@@ -2085,7 +1998,7 @@
 											"containerChangeable": false,
 											"containerExtending": false,
 											"left": 781,
-											"top": 572,
+											"top": 527,
 											"width": 815.3818359375,
 											"height": 13,
 											"autoResize": false,
@@ -2114,7 +2027,7 @@
 											"containerChangeable": false,
 											"containerExtending": false,
 											"left": 781,
-											"top": 587,
+											"top": 542,
 											"width": 815.3818359375,
 											"height": 13,
 											"autoResize": false,
@@ -2143,7 +2056,7 @@
 											"containerChangeable": false,
 											"containerExtending": false,
 											"left": 781,
-											"top": 602,
+											"top": 557,
 											"width": 815.3818359375,
 											"height": 13,
 											"autoResize": false,
@@ -2172,7 +2085,7 @@
 											"containerChangeable": false,
 											"containerExtending": false,
 											"left": 781,
-											"top": 617,
+											"top": 572,
 											"width": 815.3818359375,
 											"height": 13,
 											"autoResize": false,
@@ -2201,7 +2114,7 @@
 											"containerChangeable": false,
 											"containerExtending": false,
 											"left": 781,
-											"top": 632,
+											"top": 587,
 											"width": 815.3818359375,
 											"height": 13,
 											"autoResize": false,
@@ -2224,7 +2137,7 @@
 									"left": 776,
 									"top": 372,
 									"width": 825.3818359375,
-									"height": 278,
+									"height": 233,
 									"autoResize": false
 								},
 								{
@@ -5111,252 +5024,6 @@
 																}
 															],
 															"operations": [
-																{
-																	"_type": "UMLOperation",
-																	"_id": "AAAAAAFieWdIIjxnhf4=",
-																	"_parent": {
-																		"$ref": "AAAAAAFiQSzB1/xcmSs="
-																	},
-																	"name": "Employee",
-																	"documentation": "Telescoping pattern\n@param id = employee's id\n@param name = employee's name\n@param dateOfBirth = employee's date of birth\n",
-																	"stereotype": "constructor",
-																	"visibility": "public",
-																	"isStatic": false,
-																	"isLeaf": false,
-																	"parameters": [
-																		{
-																			"_type": "UMLParameter",
-																			"_id": "AAAAAAFieWnkQzxvkMw=",
-																			"_parent": {
-																				"$ref": "AAAAAAFieWdIIjxnhf4="
-																			},
-																			"name": "id",
-																			"visibility": "public",
-																			"isStatic": false,
-																			"isLeaf": false,
-																			"type": "int",
-																			"isReadOnly": false,
-																			"isOrdered": false,
-																			"isUnique": false,
-																			"direction": "in"
-																		},
-																		{
-																			"_type": "UMLParameter",
-																			"_id": "AAAAAAFieWnkRDxwlcw=",
-																			"_parent": {
-																				"$ref": "AAAAAAFieWdIIjxnhf4="
-																			},
-																			"name": "name",
-																			"visibility": "public",
-																			"isStatic": false,
-																			"isLeaf": false,
-																			"type": "String",
-																			"isReadOnly": false,
-																			"isOrdered": false,
-																			"isUnique": false,
-																			"direction": "in"
-																		},
-																		{
-																			"_type": "UMLParameter",
-																			"_id": "AAAAAAFieWnkRTxxfqs=",
-																			"_parent": {
-																				"$ref": "AAAAAAFieWdIIjxnhf4="
-																			},
-																			"name": "dateOfBirth",
-																			"visibility": "public",
-																			"isStatic": false,
-																			"isLeaf": false,
-																			"type": "LocalDate",
-																			"isReadOnly": false,
-																			"isOrdered": false,
-																			"isUnique": false,
-																			"direction": "in"
-																		}
-																	],
-																	"concurrency": "sequential",
-																	"isQuery": false,
-																	"isAbstract": false
-																},
-																{
-																	"_type": "UMLOperation",
-																	"_id": "AAAAAAFieWqKizyDwro=",
-																	"_parent": {
-																		"$ref": "AAAAAAFiQSzB1/xcmSs="
-																	},
-																	"name": "Employee",
-																	"documentation": "Telescoping pattern\n@param id = employee's id\n@param name = employee's name\n@param dateOfBirth = employee's date of birth\n@param hireDate = employee's hire date",
-																	"stereotype": "constructor",
-																	"visibility": "public",
-																	"isStatic": false,
-																	"isLeaf": false,
-																	"parameters": [
-																		{
-																			"_type": "UMLParameter",
-																			"_id": "AAAAAAFieWv7Lzya6TM=",
-																			"_parent": {
-																				"$ref": "AAAAAAFieWqKizyDwro="
-																			},
-																			"name": "id",
-																			"visibility": "public",
-																			"isStatic": false,
-																			"isLeaf": false,
-																			"type": "int",
-																			"isReadOnly": false,
-																			"isOrdered": false,
-																			"isUnique": false,
-																			"direction": "in"
-																		},
-																		{
-																			"_type": "UMLParameter",
-																			"_id": "AAAAAAFieWv7MDybo54=",
-																			"_parent": {
-																				"$ref": "AAAAAAFieWqKizyDwro="
-																			},
-																			"name": "name",
-																			"visibility": "public",
-																			"isStatic": false,
-																			"isLeaf": false,
-																			"type": "String",
-																			"isReadOnly": false,
-																			"isOrdered": false,
-																			"isUnique": false,
-																			"direction": "in"
-																		},
-																		{
-																			"_type": "UMLParameter",
-																			"_id": "AAAAAAFieWv7MDycEeM=",
-																			"_parent": {
-																				"$ref": "AAAAAAFieWqKizyDwro="
-																			},
-																			"name": "dateOfBirth",
-																			"visibility": "public",
-																			"isStatic": false,
-																			"isLeaf": false,
-																			"type": "LocalDate",
-																			"isReadOnly": false,
-																			"isOrdered": false,
-																			"isUnique": false,
-																			"direction": "in"
-																		},
-																		{
-																			"_type": "UMLParameter",
-																			"_id": "AAAAAAFieWv7Mjyd6aI=",
-																			"_parent": {
-																				"$ref": "AAAAAAFieWqKizyDwro="
-																			},
-																			"name": "hireDate",
-																			"visibility": "public",
-																			"isStatic": false,
-																			"isLeaf": false,
-																			"type": "LocalDate",
-																			"isReadOnly": false,
-																			"isOrdered": false,
-																			"isUnique": false,
-																			"direction": "in"
-																		}
-																	],
-																	"concurrency": "sequential",
-																	"isQuery": false,
-																	"isAbstract": false
-																},
-																{
-																	"_type": "UMLOperation",
-																	"_id": "AAAAAAFieWwOcjyi450=",
-																	"_parent": {
-																		"$ref": "AAAAAAFiQSzB1/xcmSs="
-																	},
-																	"name": "Employee",
-																	"documentation": "Telescoping pattern\n@param id = employee's id\n@param name = employee's name\n@param dateOfBirth = employee's date of birth\n@param hireDate = employee's hire date\n@param hourlyPerWorkWeek = employee's number of hours of work in the week",
-																	"stereotype": "constructor",
-																	"visibility": "public",
-																	"isStatic": false,
-																	"isLeaf": false,
-																	"parameters": [
-																		{
-																			"_type": "UMLParameter",
-																			"_id": "AAAAAAFieW1g+jyrnL8=",
-																			"_parent": {
-																				"$ref": "AAAAAAFieWwOcjyi450="
-																			},
-																			"name": "id",
-																			"visibility": "public",
-																			"isStatic": false,
-																			"isLeaf": false,
-																			"type": "int",
-																			"isReadOnly": false,
-																			"isOrdered": false,
-																			"isUnique": false,
-																			"direction": "in"
-																		},
-																		{
-																			"_type": "UMLParameter",
-																			"_id": "AAAAAAFieW1g+jysfIk=",
-																			"_parent": {
-																				"$ref": "AAAAAAFieWwOcjyi450="
-																			},
-																			"name": "name",
-																			"visibility": "public",
-																			"isStatic": false,
-																			"isLeaf": false,
-																			"type": "String",
-																			"isReadOnly": false,
-																			"isOrdered": false,
-																			"isUnique": false,
-																			"direction": "in"
-																		},
-																		{
-																			"_type": "UMLParameter",
-																			"_id": "AAAAAAFieW1g+jytWp0=",
-																			"_parent": {
-																				"$ref": "AAAAAAFieWwOcjyi450="
-																			},
-																			"name": "dateOfBirth",
-																			"visibility": "public",
-																			"isStatic": false,
-																			"isLeaf": false,
-																			"type": "LocalDate",
-																			"isReadOnly": false,
-																			"isOrdered": false,
-																			"isUnique": false,
-																			"direction": "in"
-																		},
-																		{
-																			"_type": "UMLParameter",
-																			"_id": "AAAAAAFieW1g+jyuAzY=",
-																			"_parent": {
-																				"$ref": "AAAAAAFieWwOcjyi450="
-																			},
-																			"name": "hireDate",
-																			"visibility": "public",
-																			"isStatic": false,
-																			"isLeaf": false,
-																			"type": "LocalDate",
-																			"isReadOnly": false,
-																			"isOrdered": false,
-																			"isUnique": false,
-																			"direction": "in"
-																		},
-																		{
-																			"_type": "UMLParameter",
-																			"_id": "AAAAAAFieW1g+jyvSro=",
-																			"_parent": {
-																				"$ref": "AAAAAAFieWwOcjyi450="
-																			},
-																			"name": "hoursPerWorkWeek",
-																			"visibility": "public",
-																			"isStatic": false,
-																			"isLeaf": false,
-																			"type": "int",
-																			"isReadOnly": false,
-																			"isOrdered": false,
-																			"isUnique": false,
-																			"direction": "in"
-																		}
-																	],
-																	"concurrency": "sequential",
-																	"isQuery": false,
-																	"isAbstract": false
-																},
 																{
 																	"_type": "UMLOperation",
 																	"_id": "AAAAAAFieW1zjDy1iMg=",
