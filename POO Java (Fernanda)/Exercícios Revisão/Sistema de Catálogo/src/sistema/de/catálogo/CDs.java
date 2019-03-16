@@ -21,7 +21,7 @@ public class CDs extends Colecionaveis{
     /**
      * Identificador das faixas
     */
-    private int faixas;
+    private ArrayList<String> faixas = new ArrayList();
     /**
     * Construtor default.
     * @param id
@@ -30,10 +30,10 @@ public class CDs extends Colecionaveis{
     * @param autores
     * todos pegos da superclasse Colecionaveis
     */
-    public CDs(int id, String nome, LocalDate dt_aquisicao, ArrayList autores, String genero, int faixas) {
+    public CDs(int id, String nome, LocalDate dt_aquisicao, ArrayList autores, String genero, ArrayList faixas) {
         super(id, nome, dt_aquisicao, autores);
         this.genero = genero;
-        this.faixas = faixas;
+        faixas.add(faixas);
     }
 
     public String getGenero() {
@@ -44,12 +44,12 @@ public class CDs extends Colecionaveis{
         this.genero = genero;
     }
 
-    public int getId_faixas() {
+    public ArrayList getId_faixas() {
         return faixas;
     }
 
-    public void setId_faixas(int id_faixas) {
-        this.faixas = faixas;
+    public void setId_faixas(ArrayList faixas) {
+        faixas.add(faixas);
     }
     
 }
