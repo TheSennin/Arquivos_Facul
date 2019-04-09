@@ -1,0 +1,7 @@
+Aluno: Gustavo Xavier Pereira
+
+NOTAS: O programa utiliza uma estrutura de dados unidimensional (vetor) para representar duas pilhas. Por padrão, o tamanho foi definido em " 10 " para fins de testes.
+	Como não há nenhuma especificação quanto ao tamanho de cada pilha (ou ambas), o programa identifica que existe um espaço vazio no vetor e preenche a pilha
+	de acordo com a vontade do usuário, assim possibilitando que uma pilha seja maior que a outra.
+
+	OBS: O programa utiliza métodos da biblioteca do C, como "system("cls)" e "system("pause")", cujo comandos podem variar de acordo com o sistema 	        	operacional, e podem não funcionar corretamente fora do ambiente Windows.

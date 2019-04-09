@@ -1,0 +1,12 @@
+Aluno: Gustavo Xavier Pereira
+
+NOTAS: O programa simula uma estrutura de dados fila, representada através de uma estrutura dinâmina duplamente encadeada, onde há prioridades 
+enumeradas: 1- Normal, 2- Media, 3- Alta.
+
+No menu principal, o programa exibe opções para inserir elemento, remover(levando em consideração a prioridade), remover(sem levar em consideração a prioridade),
+pesquisar elemento na fila e exibir a fila.
+
+OBS: O programa utiliza métodos da biblioteca do C, como "system("cls)" e "system("pause")", cujo comandos podem variar de acordo com o sistema 	        	operacional, e podem não funcionar corretamente fora do ambiente Windows.
+
+OBS2: Admiti o método "remover(sem levar em consideração a prioridade)" apenas para executar alguns testes, porém achei interessante deixá - lo no menu de escolha.
+Porém, entendo que tal método fere o conceito de "fila" (ainda mais com prioridade).

@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1537479885 source:c:\users\gustavo\desktop\trabalho m1\questão 3\main.cpp
+	<iostream>
+	"Lista.cpp"
+
+1537404950 source:c:\users\gustavo\desktop\trabalho m1\questão 3\nododuplo.cpp
+	"NodoDuplo.h"
+	<stdio.h>
+
+1537404935 c:\users\gustavo\desktop\trabalho m1\questão 3\nododuplo.h
+
+1537479654 source:c:\users\gustavo\desktop\trabalho m1\questão 3\lista.cpp
+	"Lista.h"
+	"NodoDuplo.cpp"
+	<stdio.h>
+	<iostream>
+
+1537479015 c:\users\gustavo\desktop\trabalho m1\questão 3\lista.h
+	"NodoDuplo.h"
+
+1537479654 c:\users\gustavo\desktop\trabalho m1\questão 3\lista.cpp
+	"Lista.h"
+	"NodoDuplo.cpp"
+	<stdio.h>
+	<iostream>
+
+1537404950 c:\users\gustavo\desktop\trabalho m1\questão 3\nododuplo.cpp
+	"NodoDuplo.h"
+	<stdio.h>
+

@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1541640064 source:c:\users\gustavo\desktop\arquivos_facul\estruturas de dados\2018 - 2\trabalhos\m2\trabalho m2 - filas e pilhas\questão 1\main.cpp
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+	"PilhaDupla.cpp"
+
+1541640150 c:\users\gustavo\desktop\arquivos_facul\estruturas de dados\2018 - 2\trabalhos\m2\trabalho m2 - filas e pilhas\questão 1\pilhadupla.cpp
+	<iostream>
+	"PilhaDupla.h"
+
+1541637203 c:\users\gustavo\desktop\arquivos_facul\estruturas de dados\2018 - 2\trabalhos\m2\trabalho m2 - filas e pilhas\questão 1\pilhadupla.h
+
+1541640150 source:c:\users\gustavo\desktop\arquivos_facul\estruturas de dados\2018 - 2\trabalhos\m2\trabalho m2 - filas e pilhas\questão 1\pilhadupla.cpp
+	<iostream>
+	"PilhaDupla.h"
+

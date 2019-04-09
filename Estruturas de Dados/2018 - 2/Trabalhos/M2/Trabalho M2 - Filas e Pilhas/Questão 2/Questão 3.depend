@@ -1,0 +1,79 @@
+# depslib dependency file v1.0
+1537479885 source:c:\users\gustavo\desktop\trabalho m1\questão 3\main.cpp
+	<iostream>
+	"Lista.cpp"
+
+1537404950 source:c:\users\gustavo\desktop\trabalho m1\questão 3\nododuplo.cpp
+	"NodoDuplo.h"
+	<stdio.h>
+
+1537404935 c:\users\gustavo\desktop\trabalho m1\questão 3\nododuplo.h
+
+1537479654 source:c:\users\gustavo\desktop\trabalho m1\questão 3\lista.cpp
+	"Lista.h"
+	"NodoDuplo.cpp"
+	<stdio.h>
+	<iostream>
+
+1537479015 c:\users\gustavo\desktop\trabalho m1\questão 3\lista.h
+	"NodoDuplo.h"
+
+1537479654 c:\users\gustavo\desktop\trabalho m1\questão 3\lista.cpp
+	"Lista.h"
+	"NodoDuplo.cpp"
+	<stdio.h>
+	<iostream>
+
+1537404950 c:\users\gustavo\desktop\trabalho m1\questão 3\nododuplo.cpp
+	"NodoDuplo.h"
+	<stdio.h>
+
+1541714921 source:c:\users\gustavo\desktop\m2\trabalho m2 - filas e pilhas\questão 2\nododuplo.cpp
+	"NodoDuplo.h"
+	<stdio.h>
+
+1541718742 c:\users\gustavo\desktop\m2\trabalho m2 - filas e pilhas\questão 2\nododuplo.h
+
+1541792238 source:c:\users\gustavo\desktop\m2\trabalho m2 - filas e pilhas\questão 2\fila.cpp
+	"Fila.h"
+	"NodoDuplo.cpp"
+	<stdio.h>
+	<iostream>
+
+1541722383 c:\users\gustavo\desktop\m2\trabalho m2 - filas e pilhas\questão 2\fila.h
+	"NodoDuplo.h"
+
+1541714921 c:\users\gustavo\desktop\m2\trabalho m2 - filas e pilhas\questão 2\nododuplo.cpp
+	"NodoDuplo.h"
+	<stdio.h>
+
+1541792653 source:c:\users\gustavo\desktop\m2\trabalho m2 - filas e pilhas\questão 2\main.cpp
+	<iostream>
+	"Fila.cpp"
+	<stdlib.h>
+
+1541792238 c:\users\gustavo\desktop\m2\trabalho m2 - filas e pilhas\questão 2\fila.cpp
+	"Fila.h"
+	"NodoDuplo.cpp"
+	<stdio.h>
+	<iostream>
+
+1541792238 source:c:\users\gustavo\desktop\m2\trabalho m2 - filas e pilhas\questão 2\questão 2\fila.cpp
+	"Fila.h"
+	"NodoDuplo.cpp"
+	<stdio.h>
+	<iostream>
+
+1541722383 c:\users\gustavo\desktop\m2\trabalho m2 - filas e pilhas\questão 2\questão 2\fila.h
+	"NodoDuplo.h"
+
+1541718742 c:\users\gustavo\desktop\m2\trabalho m2 - filas e pilhas\questão 2\questão 2\nododuplo.h
+
+1541714921 c:\users\gustavo\desktop\m2\trabalho m2 - filas e pilhas\questão 2\questão 2\nododuplo.cpp
+	"NodoDuplo.h"
+	<stdio.h>
+
+1541714921 source:c:\users\gustavo\desktop\m2\trabalho m2 - filas e pilhas\questão 2\questão 2\nododuplo.cpp
+	"NodoDuplo.h"
+	<stdio.h>
+

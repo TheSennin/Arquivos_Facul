@@ -1,0 +1,11 @@
+Aluno: Gustavo Xavier Pereira
+
+Notas: O programa utiliza apenas uma estrutura de dados "lista", na qual armazena, digito por digito, o numero de 4 digitos.
+Ao iniciar o programa, o mesmo apresenta o numero aleatório gerado (para fim de testes) e então pede, com um digito de cada vez, o numero de 4 digitos a ser chutado.
+
+A cada dígito inserido, o programa compara com os elementos da lista, procurando por correspondências parecidas, e ao mesmo tempo, compara se as posições estão corretas.
+Quando inserido os 4 digitos, o programa gera um feedback dizendo quantos chutes estão corretos e quantos chutes estão em posições corretas.
+
+Se o usuario acertar o numero, o programa gera uma mensagem de parabéns e mostra quantas tentativas foram necessarias. 
+Senão, o programa pergunta se o usuario quer continuar tentando, e caso opte por não continuar, apenas mostra quantas tentativas foram efetuadas.
+
