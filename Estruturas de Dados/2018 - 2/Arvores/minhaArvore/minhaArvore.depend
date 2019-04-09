@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1543974640 source:c:\users\gustavo\desktop\minhaarvore\main.cpp
+	<iostream>
+	"ABB.cpp"
+
+1543968603 source:c:\users\gustavo\desktop\minhaarvore\node.cpp
+	"Node.h"
+	<stdio.h>
+
+1543967954 c:\users\gustavo\desktop\minhaarvore\node.h
+
+1544054229 source:c:\users\gustavo\desktop\minhaarvore\abb.cpp
+	<iostream>
+	"ABB.h"
+	"Node.cpp"
+	<stdio.h>
+
+1543968768 c:\users\gustavo\desktop\minhaarvore\abb.h
+	"Node.h"
+
+1544054229 c:\users\gustavo\desktop\minhaarvore\abb.cpp
+	<iostream>
+	"ABB.h"
+	"Node.cpp"
+	<stdio.h>
+
+1543968603 c:\users\gustavo\desktop\minhaarvore\node.cpp
+	"Node.h"
+	<stdio.h>
+
