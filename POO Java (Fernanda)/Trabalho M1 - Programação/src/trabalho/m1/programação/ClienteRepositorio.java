@@ -39,8 +39,7 @@ public class ClienteRepositorio implements Serializable {
         try{
             FileInputStream arq = new FileInputStream(caminho);
             ObjectInputStream obj = new ObjectInputStream(arq);
-            
-            System.out.println("passou aqui");
+
             a = (ArrayList)obj.readObject();
             obj.close();
             System.out.println("Arquivo lido com sucesso!");
