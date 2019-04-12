@@ -5,6 +5,7 @@
  */
 package trabalho.m1.programação;
 
+import java.io.EOFException;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -34,20 +35,18 @@ public class ClienteRepositorio implements Serializable {
     }
     
     public static ArrayList Read(String caminho) throws FileNotFoundException, IOException, ClassNotFoundException{
-        ArrayList c = new ArrayList();
-        FileInputStream arq = new FileInputStream(caminho);
-        ObjectInputStream obj = new ObjectInputStream(arq);
+        ArrayList<Cliente> a = new ArrayList();
         try{
-            if((ArrayList)obj.readObject() == null){
-                System.out.println("Banco de clientes nulo!");
-            }else{
-                c = (ArrayList)obj.readObject();
-                obj.close();
-                System.out.println("Arquivo lido com sucesso!");
-            } 
+            FileInputStream arq = new FileInputStream(caminho);
+            ObjectInputStream obj = new ObjectInputStream(arq);
+            
+            System.out.println("passou aqui");
+            a = (ArrayList)obj.readObject();
+            obj.close();
+            System.out.println("Arquivo lido com sucesso!");
         }catch(FileNotFoundException e){
             System.out.println("Banco de clientes não encontrado!");
         }
-        return c;
-    } 
+        return a;   
+    }
 }

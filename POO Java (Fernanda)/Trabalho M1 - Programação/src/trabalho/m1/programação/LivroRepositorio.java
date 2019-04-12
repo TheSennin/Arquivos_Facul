@@ -33,16 +33,12 @@ public class LivroRepositorio {
     }
     public static ArrayList Read(String caminho) throws FileNotFoundException, IOException, ClassNotFoundException{
         ArrayList l = new ArrayList();
-        FileInputStream arq = new FileInputStream(caminho);
-        ObjectInputStream obj = new ObjectInputStream(arq);
         try{
-            if((ArrayList)obj.readObject() == null){
-                System.out.println("Banco de livros nulo!\r\n");
-            }else{
+                FileInputStream arq = new FileInputStream(caminho);
+                ObjectInputStream obj = new ObjectInputStream(arq);
                 l = (ArrayList)obj.readObject();
                 obj.close();
                 System.out.println("Arquivo lido com sucesso!\r\n");
-            } 
         }catch(FileNotFoundException e){
             System.out.println("Banco de livros não encontrado!");
         }

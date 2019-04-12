@@ -20,8 +20,8 @@ import java.util.Scanner;
 public class Menu {
     
     private static Scanner entrada = new Scanner(System.in);
-    private static ArrayList<Cliente> clientes = new ArrayList<Cliente>();
-    private static ArrayList<Livro> livros = new ArrayList<Livro>();
+    private static ArrayList<Cliente> clientes;
+    private static ArrayList<Livro> livros;
     private static String nome, telefone, email, ISBN, titulo, autor, data;
     private static int numero,codigo, opcao,i=0;
     private static float preco;

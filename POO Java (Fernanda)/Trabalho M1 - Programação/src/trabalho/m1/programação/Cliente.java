@@ -14,7 +14,7 @@ import java.util.ArrayList;
  */
 public class Cliente implements Serializable{
     
-    private int codigo;
+    private int codigo, numClientes;
     private String nome;
     private String telefone;
     private String email;
@@ -36,6 +36,7 @@ public class Cliente implements Serializable{
         setNome(nome);
         setTelefone(telefone);
         setEmail(email);
+        numClientes++;
     }
 
     public void addPedidos(Pedido pedido) {
@@ -87,6 +88,14 @@ public class Cliente implements Serializable{
 
     public String getEmail() {
         return email;
+    }
+    
+    public void setNumClientes(int numClientes){
+        this.numClientes = numClientes;
+    }
+    
+    public int getNumClientes(){
+        return this.numClientes;
     }
 
     public void setEmail(String email) {
