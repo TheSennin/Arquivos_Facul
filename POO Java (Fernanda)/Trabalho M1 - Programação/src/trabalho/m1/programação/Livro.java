@@ -41,7 +41,7 @@ public class Livro implements Serializable{
     }
 
     public String getTitulo() {
-        return titulo;
+        return this.titulo;
     }
 
     public void setTitulo(String titulo) {
@@ -49,7 +49,7 @@ public class Livro implements Serializable{
     }
 
     public String getAutor() {
-        return autor;
+        return this.autor;
     }
 
     public void setAutor(String autor) {
@@ -57,7 +57,7 @@ public class Livro implements Serializable{
     }
 
     public float getPrecoUnitario() {
-        return precoUnitario;
+        return this.precoUnitario;
     }
 
     public void setPrecoUnitario(float precoUnitario) {
@@ -71,6 +71,7 @@ public class Livro implements Serializable{
         output.append("\r\nTitulo: " + getTitulo());
         output.append("\r\nAutor: " + getAutor());
         output.append("\r\nPreço Unitário: " + getPrecoUnitario());
+        output.append("\r\n-----------------------");
         return output.toString();
     }
     

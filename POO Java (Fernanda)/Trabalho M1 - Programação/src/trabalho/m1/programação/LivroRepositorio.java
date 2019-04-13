@@ -38,7 +38,7 @@ public class LivroRepositorio {
                 ObjectInputStream obj = new ObjectInputStream(arq);
                 l = (ArrayList)obj.readObject();
                 obj.close();
-                System.out.println("Arquivo lido com sucesso!\r\n");
+                System.out.println("Banco de Livros lido com sucesso!\r\n");
         }catch(FileNotFoundException e){
             System.out.println("Banco de livros não encontrado!");
         }

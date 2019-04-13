@@ -42,7 +42,7 @@ public class ClienteRepositorio implements Serializable {
 
             a = (ArrayList)obj.readObject();
             obj.close();
-            System.out.println("Arquivo lido com sucesso!");
+            System.out.println("Banco de clientes lido com sucesso!");
         }catch(FileNotFoundException e){
             System.out.println("Banco de clientes não encontrado!");
         }

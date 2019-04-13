@@ -6,7 +6,11 @@
 package trabalho.m1.programação;
 
 import java.io.Serializable;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
+import java.util.Random;
 
 /**
  *
@@ -23,40 +27,53 @@ public class Pedido implements Serializable{
     private ArrayList<ItemPedido> itens = new ArrayList<ItemPedido>();
     
     public Pedido(){
-        this(0,null,null);
     }
     
-    public Pedido(int numero, String data, Cliente cliente){
-        setNumero(numero);
-        setData(data);
+    public Pedido(Cliente cliente){
         setCliente(cliente);
+        
+        Random gerador = new Random();
+        this.numero = gerador.nextInt(9999);
+        
+        DateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy"); 
+	Date date = new Date(); 
+	this.data = dateFormat.format(date); 
     }
     
-    public Pedido(int numero, String data, Cliente cliente, ItemPedido item){
-        setNumero(numero);
-        setData(data);
-        this.itens.add(item);
+    public Pedido(Cliente cliente, ItemPedido item){
+        addItens(item);
         setCliente(cliente);
+        
+        Random gerador = new Random();
+        this.numero = gerador.nextInt(9999);
+        
+        DateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy"); 
+	Date date = new Date(); 
+	this.data = dateFormat.format(date); 
     }
 
     public int getNumero() {
-        return numero;
+        return this.numero;
     }
 
-    public void setNumero(int numero) {
+    public void setNumero() {
         this.numero = numero;
     }
 
     public String getData() {
-        return data;
+        return this.data;
     }
 
-    public void setData(String data) {
+    public void setData(String data) { 
         this.data = data;
     }
     
     public Cliente getCliente() {
-        return cliente;
+        if(this.cliente == null){
+            System.out.println("pedido: cliente nulo");
+            return new Cliente();
+        }else
+            return this.cliente;
     }
 
     public void setCliente(Cliente cliente) {
@@ -64,11 +81,11 @@ public class Pedido implements Serializable{
     }
     
     public void addItens(ItemPedido item){
-        itens.add(item);
+        this.itens.add(item);
     }
     
     public void removerItem(ItemPedido item){
-        itens.remove(item);
+        this.itens.remove(item);
     }
     
     public String getItens(){

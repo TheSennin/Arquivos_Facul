@@ -85,10 +85,10 @@ public class Menu {
         try{             
             Cliente c = new Cliente(codigo, nome, telefone, email);
             clientes.add(c);
-            System.out.println("Sucesso ao cadastrar cliente!");
+            System.out.println("S\r\nucesso ao cadastrar cliente!\r\n");
             
         }catch(IllegalArgumentException e){
-            System.out.println("Erro ao cadastrar cliente!");
+            System.out.println("\r\nErro ao cadastrar cliente!");
         }
     }
     
@@ -96,57 +96,57 @@ public class Menu {
         System.out.println("ISBN: ");
         ISBN = entrada.next();
         System.out.println("Titulo: ");
-        titulo = entrada.nextLine();
         entrada.nextLine();
+        titulo = entrada.nextLine();
         System.out.println("Autor: ");
         autor = entrada.nextLine();
-        entrada.nextLine();
         System.out.println("Preco: ");
         preco = Float.parseFloat(entrada.nextLine());
         
         try{
             Livro l = new Livro(ISBN, titulo, autor, preco);
             livros.add(l);
-            System.out.println("Sucesso ao cadastrar Livro!");
+            System.out.println("\r\nSucesso ao cadastrar Livro!\r\n");
             
         }catch(IllegalArgumentException e){
-            System.out.println("Erro ao cadastrar Livro!");
+            System.out.println("\r\nErro ao cadastrar Livro!");
         }
     }
     
     public static void novoPedido() throws IOException, FileNotFoundException, ClassNotFoundException{
         boolean achou = false;
+        String item;
+        int opc=1;
         do{
             System.out.println("\r\nNome do Cliente: ");
             nome = entrada.next();
             for(i=0;i<clientes.size();i++){
                 if(clientes.get(i).getNome().equals(nome)){
+                    Pedido p = new Pedido(clientes.get(i));
+                    p.setCliente(clientes.get(i));
+                    clientes.get(i).addPedidos(p);
+                    System.out.println("\r\nSucesso ao cadastrar o pedido!\r\n");
                     achou = true;
                     break;
                 }
             }
             if(achou == false)
-                System.out.println("Cliente inválido, tente novamente.");
+                System.out.println("\r\nCliente inválido, tente novamente.");
         }while(achou == false);
-        
-        try{
-            System.out.println("\r\nNumero do pedido: ");
-            numero = entrada.nextInt();
-            System.out.println("\r\nData: ");
-            data = entrada.next();
-            Pedido p = new Pedido(numero,data,clientes.get(i));
-            clientes.get(i).addPedidos(p);
-            System.out.println("Sucesso ao cadastrar o pedido!");
-        }catch(IllegalArgumentException e){
-            System.out.println("Erro! Não foi possivel cadastrar o pedido!\r\n");
-        }
     }
     
     public static void addItem(){
         String item,nome;
         int qtd, num;
         Cliente c = new Cliente();
-
+        
+        System.out.println("\r\nNome do Cliente: ");
+        nome = entrada.next();
+        for(i=0;i<clientes.size();i++){
+            if(clientes.get(i).getNome().equals(nome)){
+                c = clientes.get(i);                
+            }
+        }
         System.out.println("\r\nNumero do Pedido: ");
         num = entrada.nextInt();
 
@@ -154,14 +154,19 @@ public class Menu {
             System.out.println("Pedido Inválido!");
         }else{
             System.out.println("\r\nNome do item: ");
-            item = entrada.next();
+            entrada.nextLine();
+            item = entrada.nextLine();
             for(i=0;i<livros.size();i++){
                 if(livros.get(i).getTitulo().equals(item)){
                     System.out.println("\r\nQuantidade: ");
                     qtd = entrada.nextInt();
+                    
                     ItemPedido ip = new ItemPedido(livros.get(i),qtd);
                     Pedido p = c.pesquisaPedido(num);
+                    c = p.getCliente();
                     p.addItens(ip);
+                    System.out.println(p.getNumero());
+                    System.out.println("\r\nItem adicionado!\r\n");
                 }
             }
         }
@@ -169,20 +174,20 @@ public class Menu {
     
     public static void relatorioClientes(){
         String opc;
-        if(clientes == null){
+        if(clientes.isEmpty()){
             System.out.println("Não há clientes cadastrados!");
         }else{
             for(i=0;i<clientes.size();i++){
                 System.out.println(clientes.get(i).toString());
             }
         }
-        System.out.println("\r\nPressione qualquer tecla para voltar ao menu...");
+        System.out.println("\r\nPressione qualquer tecla e aperte enter para voltar ao menu...");
         opc = entrada.next();
     }
     
     public static void relatorioLivros(){
         String opc;
-        if(livros == null){
+        if(livros.isEmpty()){
             System.out.println("Não há livros cadastrados!");
         }else{
             for(i=0;i<livros.size();i++){

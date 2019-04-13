@@ -40,7 +40,10 @@ public class Cliente implements Serializable{
     }
 
     public void addPedidos(Pedido pedido) {
-        pedidos.add(pedido);
+        if(pedido == null){
+            System.out.println("Pedido nulo");
+        }else
+            pedidos.add(pedido);
     }
     
     public String mostraPedidos(){
@@ -52,14 +55,12 @@ public class Cliente implements Serializable{
     }
     
     public Pedido pesquisaPedido(int num){
-        Pedido p = null;
         for(int i=0;i<pedidos.size();i++){
             if(pedidos.get(i).getNumero() == num){
-                p = pedidos.get(i);
-                return p;
+                return pedidos.get(i);
             }
         }
-        return p;
+        return null;
     }
 
     public int getCodigo() {

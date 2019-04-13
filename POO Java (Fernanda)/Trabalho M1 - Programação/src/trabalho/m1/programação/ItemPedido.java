@@ -42,7 +42,7 @@ public class ItemPedido implements Serializable{
      */
 
     public float getPreco() {
-        return preco;
+        return this.preco;
     }
 
     public void setPreco(float preco) {
