@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1489079118 source:c:\users\gustavo\desktop\estudospoo\main.cpp
+	<iostream>
+	"tipo_aluno.h"
+
+1489079154 source:c:\users\gustavo\desktop\estudospoo\tipo_aluno.cpp
+	"tipo_aluno.h"
+	<string.h>
+
+1489077939 c:\users\gustavo\desktop\estudospoo\tipo_aluno.h
+
+1489079219 source:c:\users\gustavo\desktop\arquivos facul\algoritmos\poo\estudospoo\main.cpp
+	<iostream>
+	"tipo_aluno.h"
+
+1489077939 c:\users\gustavo\desktop\arquivos facul\algoritmos\poo\estudospoo\tipo_aluno.h
+
+1489079154 source:c:\users\gustavo\desktop\arquivos facul\algoritmos\poo\estudospoo\tipo_aluno.cpp
+	"tipo_aluno.h"
+	<string.h>
+

@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1490193952 source:c:\users\gustavo\desktop\testes_classes\main.cpp
+	<iostream>
+	"Pessoa.h"
+
+1490193732 c:\users\gustavo\desktop\testes_classes\pessoa.h
+	<string.h>
+	<iostream>
+

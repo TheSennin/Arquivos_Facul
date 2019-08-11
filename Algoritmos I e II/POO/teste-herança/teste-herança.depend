@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1490383416 source:c:\users\gustavo\desktop\teste-herança\main.cpp
+	<iostream>
+	"Pessoa.h"
+	"Aluno.h"
+
+1490382512 c:\users\gustavo\desktop\teste-herança\pessoa.h
+	<iostream>
+	<string>
+
+1490382512 source:c:\users\gustavo\desktop\teste-herança\pessoa.cpp
+	"Pessoa.h"
+	<iostream>
+	<string>
+
+1490383297 source:c:\users\gustavo\desktop\teste-herança\aluno.cpp
+	"Aluno.h"
+	<iostream>
+	<string>
+
+1490383127 c:\users\gustavo\desktop\teste-herança\aluno.h
+	"Pessoa.h"
+

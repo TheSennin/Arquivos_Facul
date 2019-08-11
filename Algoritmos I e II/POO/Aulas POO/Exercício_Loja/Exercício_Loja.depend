@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1492216561 source:c:\users\gustavo\desktop\exercício_loja\cds.cpp
+	"CDS.h"
+	<iostream>
+	<string>
+
+1492136040 c:\users\gustavo\desktop\exercício_loja\cds.h
+	"Produto.h"
+
+1492136453 c:\users\gustavo\desktop\exercício_loja\produto.h
+	<string>
+	<iostream>
+
+1492216555 source:c:\users\gustavo\desktop\exercício_loja\livros.cpp
+	"Livros.h"
+	<iostream>
+	<string>
+
+1492136059 c:\users\gustavo\desktop\exercício_loja\livros.h
+	"Produto.h"
+
+1492223112 source:c:\users\gustavo\desktop\exercício_loja\main.cpp
+	<iostream>
+	"CDS.h"
+	"DVDS.h"
+	"Livros.h"
+	<string>
+	<stdlib.h>
+	<stdio.h>
+	<ctype.h>
+	<time.h>
+
+1492134478 source:c:\users\gustavo\desktop\exercício_loja\produto.cpp
+	"Produto.h"
+	<iostream>
+	<string>
+
+1492216557 source:c:\users\gustavo\desktop\exercício_loja\dvds.cpp
+	"DVDS.h"
+	<iostream>
+	<string>
+
+1492136056 c:\users\gustavo\desktop\exercício_loja\dvds.h
+	"Produto.h"
+

@@ -1,0 +1,103 @@
+# depslib dependency file v1.0
+1489798118 source:c:\users\felip_000\desktop\trabahos e exercicios\algoritimos\figura\main.cpp
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+	"Quadrado.h"
+	"Circulo.h"
+	"Retangulo.h"
+
+1489796223 source:c:\users\felip_000\desktop\trabahos e exercicios\algoritimos\figura\quadrado.cpp
+	<iostream>
+	"Quadrado.h"
+
+1489796036 c:\users\felip_000\desktop\trabahos e exercicios\algoritimos\figura\quadrado.h
+	"Figura.h"
+
+1489796036 c:\users\felip_000\desktop\trabahos e exercicios\algoritimos\figura\figura.h
+
+1489796652 source:c:\users\felip_000\desktop\trabahos e exercicios\algoritimos\figura\retangulo.cpp
+	<iostream>
+	"Retangulo.h"
+
+1489796036 c:\users\felip_000\desktop\trabahos e exercicios\algoritimos\figura\retangulo.h
+	"Figura.h"
+
+1489796619 source:c:\users\felip_000\desktop\trabahos e exercicios\algoritimos\figura\circulo.cpp
+	<iostream>
+	"Circulo.h"
+
+1489796036 c:\users\felip_000\desktop\trabahos e exercicios\algoritimos\figura\circulo.h
+	"Figura.h"
+
+1489703921 source:c:\users\felip_000\desktop\trabahos e exercicios\algoritimos\figura\figura.cpp
+	"Figura.h"
+
+1489796620 source:c:\users\6311130\desktop\figura\circulo.cpp
+	<iostream>
+	"Circulo.h"
+
+1489796038 c:\users\6311130\desktop\figura\circulo.h
+	"Figura.h"
+
+1489796038 c:\users\6311130\desktop\figura\figura.h
+
+1489703922 source:c:\users\6311130\desktop\figura\figura.cpp
+	"Figura.h"
+
+1489798780 source:c:\users\6311130\desktop\figura\main.cpp
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+	"Quadrado.h"
+	"Circulo.h"
+	"Retangulo.h"
+
+1489796038 c:\users\6311130\desktop\figura\quadrado.h
+	"Figura.h"
+
+1489796038 c:\users\6311130\desktop\figura\retangulo.h
+	"Figura.h"
+
+1489796224 source:c:\users\6311130\desktop\figura\quadrado.cpp
+	<iostream>
+	"Quadrado.h"
+
+1489796654 source:c:\users\6311130\desktop\figura\retangulo.cpp
+	<iostream>
+	"Retangulo.h"
+
+1489796620 source:c:\users\gustavo\desktop\arquivos facul\algoritmos\poo\figura\figura\circulo.cpp
+	<iostream>
+	"Circulo.h"
+
+1489796038 c:\users\gustavo\desktop\arquivos facul\algoritmos\poo\figura\figura\circulo.h
+	"Figura.h"
+
+1489796038 c:\users\gustavo\desktop\arquivos facul\algoritmos\poo\figura\figura\figura.h
+
+1489703922 source:c:\users\gustavo\desktop\arquivos facul\algoritmos\poo\figura\figura\figura.cpp
+	"Figura.h"
+
+1489798782 source:c:\users\gustavo\desktop\arquivos facul\algoritmos\poo\figura\figura\main.cpp
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+	"Quadrado.h"
+	"Circulo.h"
+	"Retangulo.h"
+
+1489796038 c:\users\gustavo\desktop\arquivos facul\algoritmos\poo\figura\figura\quadrado.h
+	"Figura.h"
+
+1489796038 c:\users\gustavo\desktop\arquivos facul\algoritmos\poo\figura\figura\retangulo.h
+	"Figura.h"
+
+1489796224 source:c:\users\gustavo\desktop\arquivos facul\algoritmos\poo\figura\figura\quadrado.cpp
+	<iostream>
+	"Quadrado.h"
+
+1489796654 source:c:\users\gustavo\desktop\arquivos facul\algoritmos\poo\figura\figura\retangulo.cpp
+	<iostream>
+	"Retangulo.h"
+

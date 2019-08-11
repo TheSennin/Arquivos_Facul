@@ -1,0 +1,93 @@
+% RESPOSTAS PARTE A
+%1---
+entrada(salada).
+entrada(pao).
+prato(peixe).
+prato(carne).
+prato(massa).
+sobremesa(sorvete).
+sobremesa(pudim).
+refeicao(R) :- R=(X,Y,Z),(entrada(X),prato(Y),sobremesa(Z)).
+
+%2---
+comida(peru).
+comida(frango).
+comida(salmao).
+comida(solha).
+bebida(cerveja).
+bebida('vinho verde').
+bebida('vinho maduro').
+casado('Ana','Antonio').
+casado('Barbara','Bruno').
+gosta('Ana','vinho verde').
+gosta('Bruno','vinho verde').
+combina(salmao,'vinho maduro').
+combina(peru,'vinho verde').
+combina(frango,'vinho verde').
+a:- casado('Ana',_),casado(_,'Bruno'),gosta('Ana','vinho verde'),gosta('Bruno','vinho verde').
+b(X):- combina(salmao,X),!.
+c(X):- combina(X,'vinho verde').
+
+%3-----
+fatorial(0,1):- !.
+fatorial(N,X):- A is N-1 ,fatorial(A,Z), X is N*Z,!.
+
+fibo(0,1):- !.
+fibo(1,1):- !.
+fibo(N,X):-N1 is N-1,N2 is N-2,fibo(N1,AX),fibo(N2,BX),X is AX+BX.
+
+%4--------
+lista_pares(N,[]):- N=<0,!.
+lista_pares(N,[N|R]):- ehpar(N),N1 is N-1,lista_pares(N1,R),!. % par
+lista_pares(N,R):- N1 is N-1,lista_pares(N1,R).                % impar
+ehpar(T):- T mod 2 =:= 0.
+
+ultimoElemento([X],X):- !.
+ultimoElemento([_|R],X):- ultimoElemento(R,X).
+
+maiorElemento([X],X):- !.
+maiorElemento([X|R],X):- maiorElemento(R,Y),X>=Y,!.
+maiorElemento([_|R],Y):- maiorElemento(R,Y).
+
+ordenaBolha(L,LO):- troca(L,L1),!,ordenaBolha(L1,LO).
+ordenaBolha(L,L).
+troca([X,Y|R],[Y,X|R]):- X>Y.
+troca([Z|R],[Z|R1]):- troca(R,R1).
+
+escore(L1,L2,A,B):- identicos(L1,L2,A), diferentes(L1,L2,B).
+
+identicos([],_,0):- !.
+identicos([X|L1],[X|L2],A):- !, identicos(L1,L2, A2), A is A2+1.
+identicos([_|L1],[_|L2],A):- identicos(L1,L2,A).
+
+diferentes([],_,0):- !.
+diferentes([X|L1],[_|L2],B):- membro(X,L2), !, diferentes(L1,L2,B2), B is B2+1.
+diferentes([_|L1],[Y|L2],B):- membro(Y,L1), !, diferentes(L1,L2,B2), B is B2+1.
+diferentes([_|L1],[_|L2],B):- diferentes(L1,L2,B).
+
+membro(X,[X|_]):- !.
+membro(X,[_|R]):- membro(X,R).
+
+%5---------
+imaturo(X):- adulto(X), !, fail. % Falha diretamte qdo acha o result impedindo o backtracking
+imaturo(X).
+adulto(X):- pessoa(X), !, idade(X, N), N>=18.
+adulto(X):- tartaruga(X), idade(X, N), N>=50.
+% apos avalidado true o primeiro statement não executa mais backtrack do mesmo.
+
+% RESPOSTAS PARTE B
+q4:-findall(Titulo, filme(_,Titulo,2011,_,_), R), write(R).
+q5:-findall(DVD,(pais(X,'France'),filme(Id,_,_,_,X),dvd(DVD,Id,_)),R), write(R).
+q6:-findall(DVD,(pais(X,'Brasil'),filme(Id,_,_,_,X),dvd(DVD,Id,est2)),R), write(R).
+q7:-findall(Diretor,(filme(Id,_,_,Diretor,_),dvd(_,Id,est1)),R), write(R).
+q8:-findall(Titulo,(filme(Id,Titulo,_,_,_),not(dvd(_,Id,_))),R), write(R).
+q9:-findall(Nome,(filme(Id,_,_,_,Pais),pais(Pais,Nome),(dvd(_,Id,est1);dvd(_,Id,est3))),R), write(R).
+q10:-findall(Estante,(locacao(_,DvD,_),dvd(DvD,_,Estante)),R),write(R).
+q11:-findall(Nome,(locacao(Cliente,_,'2019-01-14'),cliente(Cliente,Nome,_)),R), write(R).
+q12:-findall(Titulo,(cliente(Cliente,'Alice',_),locacao(Cliente,DvD,_),dvd(DvD,Id,_),filme(Id,Titulo,_,_,_)),R), write(R).
+q13:-findall(Titulo,(cliente(Cliente,'Marcos',_),locacao(Cliente,DvD,_),dvd(DvD,Id,_),filme(Id,Titulo,_,_,_)),R),tamanho(R,N),write(N) .
+
+tamanho([],0).         % número de elementos da lista
+tamanho([_|R],N):- tamanho(R,N1), N is N1+1.
+
+

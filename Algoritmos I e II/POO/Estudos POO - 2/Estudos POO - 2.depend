@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1489162697 source:c:\users\gustavo\desktop\estudos poo - 2\tipo_aluno.cpp
+	"tipo_aluno.h"
+	<iostream>
+	<string.h>
+
+1489162815 c:\users\gustavo\desktop\estudos poo - 2\tipo_aluno.h
+
+1489162716 source:c:\users\gustavo\desktop\estudos poo - 2\main.cpp
+	<iostream>
+	"tipo_aluno.h"
+
