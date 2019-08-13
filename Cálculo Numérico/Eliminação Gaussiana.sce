@@ -20,3 +20,14 @@ end
 
 disp("Matriz Escalonada: ")
 disp(Ab)
+
+// Fazer Retrosubstituição
+
+x(n) = Ab(n,n+1)/Ab(n,n)
+
+for i=(n-1): -1:1
+    x(i,1)=(Ab(i,n+1)-Ab(i,i+1:n)*x(i+1:n,1))/Ab(i,i)
+end
+
+disp(x, "Resolução Final:")
+
