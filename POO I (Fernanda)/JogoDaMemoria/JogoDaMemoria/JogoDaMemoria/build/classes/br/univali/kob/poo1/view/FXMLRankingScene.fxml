@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" styleClass="root" stylesheets="@../style/fxmlrankingscene.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.univali.kob.poo1.controller.FXMLRankingSceneController">
+   <children>
+      <Label fx:id="lblBestPlayers" layoutX="297.0" layoutY="14.0" prefHeight="111.0" prefWidth="207.0" stylesheets="@../style/fxmlrankingscene.css" text="BEST PLAYERS" textAlignment="CENTER">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnBack" layoutX="14.0" layoutY="521.0" mnemonicParsing="false" onAction="#btnBackAction" prefHeight="65.0" prefWidth="156.0" styleClass="buttton" stylesheets="@../style/fxmlrankingscene.css" text="Return Back">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Pane layoutX="174.0" layoutY="178.0" prefHeight="264.0" prefWidth="454.0" style="-fx-border-color: orange; -fx-border-width: 2px 2px 2px 2px;">
+         <children>
+            <Label layoutX="306.0" prefHeight="65.0" prefWidth="148.0" style="-fx-border-width: 0px 0px 2px 0px; -fx-border-color: orange;" text="Time" />
+            <Label layoutX="150.0" prefHeight="65.0" prefWidth="156.0" style="-fx-border-color: orange; -fx-border-width: 0px 2px 2px 0px;" text="     Plays" />
+            <Label layoutX="2.0" prefHeight="65.0" prefWidth="148.0" style="-fx-border-color: orange; -fx-border-width: 0px 2px 2px 0px;" stylesheets="@../style/fxmlrankingscene.css" text="   Name" />
+            <Label fx:id="lblPlays1" layoutX="150.0" layoutY="67.0" prefHeight="65.0" prefWidth="156.0" text="    Plays1" />
+            <Label fx:id="lblTime1" layoutX="302.0" layoutY="67.0" prefHeight="65.0" prefWidth="156.0" text="Time1" />
+            <Label fx:id="lblName2" layoutX="2.0" layoutY="124.0" prefHeight="65.0" prefWidth="156.0" stylesheets="@../style/fxmlrankingscene.css" text="Name2" />
+            <Label fx:id="lblPlays2" layoutX="150.0" layoutY="124.0" prefHeight="65.0" prefWidth="156.0" text="    Plays2" />
+            <Label fx:id="lblTime2" layoutX="306.0" layoutY="124.0" prefHeight="65.0" prefWidth="148.0" text="Time2" />
+            <Label fx:id="lblName3" layoutX="2.0" layoutY="189.0" prefHeight="65.0" prefWidth="148.0" stylesheets="@../style/fxmlrankingscene.css" text="Name3" />
+            <Label fx:id="lblPlays3" layoutX="150.0" layoutY="189.0" prefHeight="65.0" prefWidth="156.0" text="    Plays3" />
+            <Label fx:id="lblTime3" layoutX="306.0" layoutY="189.0" prefHeight="65.0" prefWidth="148.0" text="Time3" />
+            <Label fx:id="lblName1" layoutX="2.0" layoutY="67.0" prefHeight="65.0" prefWidth="148.0" stylesheets="@../style/fxmlrankingscene.css" text="Name1" />
+         </children>
+      </Pane>
+      <Button fx:id="btnRefresh" layoutX="323.0" layoutY="521.0" mnemonicParsing="false" onAction="#btnRefreshAction" prefHeight="65.0" prefWidth="156.0" styleClass="buttton" stylesheets="@../style/fxmlrankingscene.css" text="Refresh">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

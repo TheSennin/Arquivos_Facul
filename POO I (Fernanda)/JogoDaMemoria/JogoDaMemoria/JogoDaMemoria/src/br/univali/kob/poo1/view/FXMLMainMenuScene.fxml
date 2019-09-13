@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="AnchorPane" styleClass="root" stylesheets="@../style/fxmlmainmenuscene.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.univali.kob.poo1.controller.FXMLMainMenuSceneController">
+   <children>
+      <VBox fx:id="vbMenu" layoutX="5.0" prefHeight="166.0" prefWidth="252.0" AnchorPane.bottomAnchor="434.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="767.0" AnchorPane.topAnchor="0.0" />
+      <Button fx:id="btnNewGame" layoutX="14.0" layoutY="426.0" mnemonicParsing="false" onAction="#btnNewGameAction" prefHeight="50.0" prefWidth="250.0" styleClass="buttton" stylesheets="@../style/fxmlmainmenuscene.css" text="New Game">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btnRanking" layoutX="14.0" layoutY="481.0" mnemonicParsing="false" onAction="#btnRankingAction" prefHeight="50.0" prefWidth="250.0" styleClass="buttton" stylesheets="@../style/fxmlmainmenuscene.css" text="Ranking">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btnQuitGame" layoutX="14.0" layoutY="536.0" mnemonicParsing="false" onAction="#btnQuitGameAction" prefHeight="50.0" prefWidth="250.0" styleClass="buttton" stylesheets="@../style/fxmlmainmenuscene.css" text="Quit">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

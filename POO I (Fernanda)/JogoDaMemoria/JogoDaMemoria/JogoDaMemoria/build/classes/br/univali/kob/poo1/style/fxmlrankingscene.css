@@ -1,0 +1,24 @@
+
+.root{
+    -fx-background-image: url("../images/naruto-wallpaper4.jpg");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 800 600;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+
+.label{
+    -fx-background-color: transparent;
+    -fx-text-fill: black;
+    -fx-font-weight: bolder;
+    -fx-font-size: 30px;
+}
+
+.buttton{
+    -fx-background-color: transparent;
+    -fx-text-fill: orange;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-color: orange;
+    -fx-font-weight: bolder;
+    -fx-font-size: 20px;
+}

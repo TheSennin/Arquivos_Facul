@@ -1,0 +1,16 @@
+.root{
+    -fx-background-image: url("../images/naruto-wallpaper2.jpg");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 1020 768;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0); 
+}
+
+.button{
+    -fx-font-family: Naruto;
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-border-color: white;
+    -fx-border-width: 2px 2px 2px 2px;
+}
+
